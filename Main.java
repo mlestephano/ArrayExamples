@@ -48,8 +48,12 @@ class Main
         * Add 1 to each element in ar1.
         * Print it out below.
         */
-        
-
+       
+       System.out.println("Task 3");
+       for (int i=0 ; i<ar1.length ; i++)
+       {
+           
+       }
         
         
         /*
