@@ -24,30 +24,36 @@ class Main
         
                 
         /*
-         * Task 2.  Create a new array called ar2.
-         *          Copy the elements of ar1 into ar2.
+         * Task 2
+         * Create a new array called ar2.
+         * Copy the elements of ar1 into ar2.
          */
         
         
         /* 
-         * Task 3. Add 1 to each element in ar1.  Print it out below
+         * Task 3
+         * Add 1 to each element in ar1.
+         * Print it out below.
          */
         
 
         
         
         /*
-         * task 4. Create a new array called ar3.
-         *         Copy the elements of ar1 into ar3.  Then do it again
-         *         For example
-         *         ar1: 1 2 3
-         *         ar3: 1 2 3 0 1 2 3
+         * Task 4
+         * Create a new array called ar3.
+         * Copy the elements of ar1 into ar3.  Then do it again
+         * For example...
+         * ar1: 1 2 3
+         * ar3: 1 2 3 0 1 2 3
          */
         
         
         /*
-         * Task 5.  Switch the first and last element of ar1.
-         *          print out the new ar1.  Then switch them back
+         * Task 5
+         * Switch the first and last element of ar1.
+         * Print out the new ar1.
+         * Then switch them back.
          */
         
         /*
