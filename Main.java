@@ -1,35 +1,25 @@
 /*
- * Example for Arrays
+ * Array Examples
  */
 
 import java.util.Scanner;
 
 class Main
 {
-    /*
-     * This one will have public static void main
-     */
-    
     public static void main( String[] args)
     {
-     
-     
-        
-        /*
-         * SET UP
-         * We are going to ask the user to input an integer 
-         * and we will call it
-                              n
-         */
         Scanner s = new Scanner(System.in);
         System.out.print(" Please type in an integer :");
         int n = s.nextInt();
         
         /*
-         * Task 1.  Create an array of integers from 0 to n-1
-         *          call this array ar1.  Print it out below.
+         * Task 1
+         * Create an array of integers from 0 to n-1.
+         * Call this array ar1.
+         * Print it out below.
          */
-        System.out.println("*** PRINTING ar1 *");
+        
+        System.out.println("Task 1");
         int[]ar1=new int[n];
         
                 
