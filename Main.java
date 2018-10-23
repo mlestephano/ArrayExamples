@@ -12,29 +12,42 @@ class Main
         System.out.print(" Please type in an integer :");
         int n = s.nextInt();
         
-        /*
-         * Task 1
-         * Create an array of integers from 0 to n-1.
-         * Call this array ar1.
-         * Print it out below.
-         */
+       /*
+        * Task 1
+        * Create an array of integers from 0 to n-1.
+        * Call this array ar1.
+        * Print it out below.
+        */
         
-        System.out.println("Task 1");
-        int[]ar1=new int[n];
+       System.out.println("Task 1");
+       int[]ar1=new int[n];
+       
+       for (int i=0 ; i<n ; i++)
+            ar1[i]=i;
         
-                
-        /*
-         * Task 2
-         * Create a new array called ar2.
-         * Copy the elements of ar1 into ar2.
-         */
+       for (int i=0 ; i<n ; i++)
+            System.out.println("ar1[" + i + "] = "+ar1[i]);
+         
+       /*
+        * Task 2
+        * Create a new array called ar2.
+        * Copy the elements of ar1 into ar2.
+        */
         
+       System.out.println("Task 2");
+       int[]ar2=new int[ar1.length];
+       
+       for (int i=0 ; i<ar2.length ; i++)
+            ar2[i]=ar1[i];
         
-        /* 
-         * Task 3
-         * Add 1 to each element in ar1.
-         * Print it out below.
-         */
+       for (int i=0 ; i<ar2.length ; i++)
+            System.out.println("ar2[" + i + "] = "+ar2[i]);
+        
+       /* 
+        * Task 3
+        * Add 1 to each element in ar1.
+        * Print it out below.
+        */
         
 
         
@@ -88,11 +101,20 @@ class Main
           */
          
         /*
-         * Task 9. In the array ar2, count how many odd numbers you
-         * have.  Then create an ew array called ar4.  Copy just the odd
-         * numbers from ar1 into ar4.  Print ar4
+         * Task 9
+         * In the array ar2, count how many odd numbers you have.
+         * Then create a new array called ar4.
+         * Copy just the odd numbers from ar1 into ar4.
+         * Print ar4.
          */
         
+       System.out.println("Task 9");
+       for (int ar2oddslengthcount=0; i<ar2odds.length; ar2oddslengthcount++)
+       {
+           
+       }   
+        }
+       System.out.println(count);
         /*
          * Task 10.  Shift the elements of ar4 right by 1
          * For example
