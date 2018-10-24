@@ -70,8 +70,19 @@ class Main
         */
        
        System.out.println("Task 4");
-       int[]ar3=new int[ar1.length];
-        
+       int[]ar3=new int[ar1.length*2];
+       for (int i=0 ; i<ar1.length ; i=i++)
+       {
+           ar3[i]=ar1[i];
+           System.out.println("ar3[" + i + "] = "+ar3[i]);
+       }
+       
+       for (int i=0 ; i<ar1.length ; i=i++)
+       {
+           ar3[i+ar3.length]=ar1[i];
+           System.out.println("ar3[" + i+ar3.length + "] = "+ar3[i]);
+       }
+ 
        /*
         * Task 5
         * Switch the first and last element of ar1.
