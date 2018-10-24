@@ -8,9 +8,9 @@ class Main
 {
     public static void main( String[] args)
     {
-        Scanner s = new Scanner(System.in);
-        System.out.print(" Please type in an integer :");
-        int n = s.nextInt();
+       Scanner s = new Scanner(System.in);
+       System.out.print(" Please type in an integer: ");
+       int n = s.nextInt();
         
        /*
         * Task 1
@@ -23,10 +23,12 @@ class Main
        int[]ar1=new int[n];
        
        for (int i=0 ; i<n ; i++)
+       {
             ar1[i]=i;
-        
-       for (int i=0 ; i<n ; i++)
             System.out.println("ar1[" + i + "] = "+ar1[i]);
+       }
+            
+       System.out.println(" ");
          
        /*
         * Task 2
@@ -38,10 +40,12 @@ class Main
        int[]ar2=new int[ar1.length];
        
        for (int i=0 ; i<ar2.length ; i++)
+       {
             ar2[i]=ar1[i];
-        
-       for (int i=0 ; i<ar2.length ; i++)
             System.out.println("ar2[" + i + "] = "+ar2[i]);
+       }
+        
+       System.out.println(" ");
         
        /* 
         * Task 3
@@ -52,26 +56,28 @@ class Main
        System.out.println("Task 3");
        for (int i=0 ; i<ar1.length ; i++)
        {
-           
+           ar1[i]++;
+           System.out.println("ar1[" + i + "] = "+ar1[i]);
        }
+       
+       /*
+        * Task 4
+        * Create a new array called ar3.
+        * Copy the elements of ar1 into ar3.  Then do it again
+        * For example...
+        * ar1: 1 2 3
+        * ar3: 1 2 3 0 1 2 3
+        */
+       
+       System.out.println("Task 4");
+       int[]ar3=new int[ar1.length];
         
-        
-        /*
-         * Task 4
-         * Create a new array called ar3.
-         * Copy the elements of ar1 into ar3.  Then do it again
-         * For example...
-         * ar1: 1 2 3
-         * ar3: 1 2 3 0 1 2 3
-         */
-        
-        
-        /*
-         * Task 5
-         * Switch the first and last element of ar1.
-         * Print out the new ar1.
-         * Then switch them back.
-         */
+       /*
+        * Task 5
+        * Switch the first and last element of ar1.
+        * Print out the new ar1.
+        * Then switch them back.
+        */
         
         /*
          * Task 6A. Print the 2nd to (n-1)th elements of ar1
@@ -113,15 +119,11 @@ class Main
          */
         
        System.out.println("Task 9");
-       for (int ar2oddslengthcount=0; i<ar2odds.length; ar2oddslengthcount++)
-       {
-           
-       }   
-        }
-       System.out.println(count);
+       int ar2oddslengthcount=0;
         /*
-         * Task 10.  Shift the elements of ar4 right by 1
-         * For example
+         * Task 10
+         * Shift the elements of ar4 right by 1.
+         * For example...
          * old   ar4: 1 3 5 7 9
          * new   ar4  9 1 3 5 7
          */
