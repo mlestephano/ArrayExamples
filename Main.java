@@ -169,20 +169,32 @@ class Main
          *  Count how many words have more than 5 letters.
          */
         
-        /*
-         * Task 13
-         * Create an array called monsterArray of 5 Monsters.
-         * The name of the monsters are
-         * "Cookie"
-         * "Grover"
-         * "Oscar the Grouch"
-         * "Elmo"
-         * "Rosita"
-         * 
-         * Print out their names
-         * Use a for loop to print out the names of monster that start with
-         * a vowel
-         */
+       /*
+        * Task 13
+        * Create an array called monsterArray of 5 Monsters.
+        * The name of the monsters are:
+        * "Cookie"
+        * "Grover"
+        * "Oscar the Grouch"
+        * "Elmo"
+        * "Rosita"
+        * Print out their names
+        * Use a for loop to print out the names of monster that start with
+        * a vowel
+        */
+       
+       System.out.println("Task 13");
+       String []monsterArray = {"Cookie", "Grover", "Oscar the Grouch", "Elmo", "Rosita"};
+       
+       for (int i=0 ; i<monsterArray.length; i++)
+            System.out.println(" [" + i + "] " + monsterArray[i]);
+
+       for (int i=0 ; i<monsterArray.length; i++)
+       {
+           char c = monsterArray[i].toLowerCase().charAt(0);
+           if (c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
+                System.out.println(monsterArray[i]); 
+       }
         
          /*
           * Task 14
